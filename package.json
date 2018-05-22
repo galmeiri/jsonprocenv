@@ -1,0 +1,19 @@
+{
+  "name": "jsonprocenv",
+  "version": "1.0.0",
+  "description": "Sets your JSON .env file to the process environment",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/galmeiri/jsonprocenv.git"
+  },
+  "author": "Gal Meiri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/galmeiri/jsonprocenv/issues"
+  },
+  "homepage": "https://github.com/galmeiri/jsonprocenv#readme"
+}
