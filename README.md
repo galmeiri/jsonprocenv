@@ -14,7 +14,7 @@ npm install jsonprocenv --save
 ```
 
 ## Usage examples
-Whereas "myenvfile.env" contains the following JSON:
+Whereas "myenvfile.json" contains the following JSON:
 ```
 {
     "db": {
@@ -32,7 +32,7 @@ Whereas "myenvfile.env" contains the following JSON:
 
 Setting the data to `process.env`:
 ```js
-require("jsonprocenv")("./myenvfile.env");
+require("jsonprocenv")("./myenvfile.json");
 
 console.log(process.env.DB_HOST) // Will print out: "mongodb://mymongoserver.example.com:27017"
 console.log(process.env.DB_COLLECTIONS_USERS) // Will print out: "usersCollection"
