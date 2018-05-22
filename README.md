@@ -3,6 +3,9 @@ Sets your JSON env file to the process environment automatically.
 
 The package flattens the JSON objects and provide easy and cleaner way to define your own process env variables, without the long and complex traditional .env file.
 
+[![NPM Version][npm-image]][npm-url]
+
+
 ## Simple usage
 ```js
 require("jsonprocenv")();  // Default ENV file path equals to "./.env".
@@ -38,3 +41,8 @@ console.log(process.env.DB_HOST) // Will print out: "mongodb://mymongoserver.exa
 console.log(process.env.DB_COLLECTIONS_USERS) // Will print out: "usersCollection"
 console.log(process.env.APIKEYS_API1) // Will print out: "1as23f4sdf96sd4f32d14f7g8dfd45dfg3df4f"
 ```
+
+
+
+[npm-image]: https://img.shields.io/badge/npm-v1.0.0-blue.svg
+[npm-url]: https://www.npmjs.com/package/jsonprocenv
