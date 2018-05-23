@@ -1,6 +1,6 @@
 {
   "name": "jsonprocenv",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Sets your JSON .env file to the process environment",
   "main": "app.js",
   "scripts": {
