@@ -20,13 +20,13 @@ module.exports = (envFilePath = "./.env") => {
                 jsonFlat(o[key], res, `${path}_${key}`);
                 return;
             }
-            res[`${path.substring(1,)}_${key}`] = o[key];
+            res[`${path}_${key}`] = o[key];
         });
     }
       
     var res = {};
     jsonFlat(definitions, res);
     Object.keys(res).forEach((key) => {
-        process.env[key.toUpperCase()] = res[key];
+        process.env[key.toUpperCase().substring(1,)] = res[key];
     });   
 };
